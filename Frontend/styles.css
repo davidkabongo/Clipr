@@ -1,0 +1,50 @@
+#createCategory:hover {
+    background-color: rgb(255, 255, 156);
+}
+
+._round:hover {
+    background-color: rgb(177, 190, 242);
+}
+
+h3#extension-title {
+    display: flex;
+    justify-content: center; /* Centers the title horizontally */
+    align-items: center; /* Aligns items vertically */
+    font-size: 2em;
+    margin: 0;
+    padding: 15px;
+    position: relative; /* Allows absolute positioning for the icon */
+    line-height: 1; /* Ensures consistent height */
+}
+
+#settings-link {
+    position: absolute;
+    right: 10px; /* Aligns the settings icon on the far right */
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center; /* Centers the icon vertically relative to the heading */
+}
+
+.settings-icon {
+    height: 2em; /* Match the icon height with the heading (adjust as needed) */
+    width: auto; /* Keep the aspect ratio intact */
+    cursor: pointer;
+}
+
+
+nav a{
+    text-align: center;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    gap: 10px; /* Optional: adds spacing between buttons */
+}
+
+a {
+    text-decoration: none;
+}

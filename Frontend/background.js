@@ -1,0 +1,1 @@
+// Gathering data in the background even when the popup isn't open
