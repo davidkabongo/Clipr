@@ -48,3 +48,30 @@ nav {
 a {
     text-decoration: none;
 }
+
+.clipboard-table {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+td img {
+    max-width: 50px; /* Thumbnail size for images */
+}
+
+td {
+    vertical-align: middle;
+}
