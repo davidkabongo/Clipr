@@ -1,1 +1,1 @@
-// Gathering data in the background even when the popup isn't open
+// Gathering data + tracking copied items in the background when the popup isn't open
