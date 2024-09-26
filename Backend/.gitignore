@@ -34,3 +34,4 @@ build/
 
 Assets
 .DS_Store
+.vscode
